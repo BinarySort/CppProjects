@@ -6,7 +6,7 @@ This repository contains a collection of C++ projects that I have created for le
 
 ## How to Clone
 
-```bash
+```
 git clone https://github.com/Tamim-Hasan-Nahian1214/CppProjects.git
 ```
 ## Projects List:
