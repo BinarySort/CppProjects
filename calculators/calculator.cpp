@@ -41,13 +41,13 @@ void multiplication()
 
 void division()
 {
-    int divisionA;
+    double divisionA;
     std::cout << "Enter Number 1: ";
     std::cin >> divisionA;
-    int divisionB;
+    double divisionB;
     std::cout << "Enter Number 2: ";
     std::cin >> divisionB;
-    int divisionResult = divisionA / divisionB;
+    double divisionResult = divisionA / divisionB;
     std::cout << "The Division is: " << divisionResult << std::endl;
     if (divisionB == 0)
     {

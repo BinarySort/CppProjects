@@ -8,6 +8,7 @@ int main() {
         std::cout << "Enter a number: ";
         std::cin >> input;
         input % 2 == 0 ? std::cout << "Even Number" << std::endl : std::cout << "Odd Number" << std::endl;
+        input < 0 ? std::cout << "Negetive Number" << std::endl : std::cout << "Positive Number" << std::endl;
     } 
     return 0;
 }
