@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    while (true) {
+        int input;
+        std::cout << "Enter a number: ";
+        std::cin >> input;
+        input % 2 == 0 ? std::cout << "Even Number" << std::endl : std::cout << "Odd Number" << std::endl;
+    } 
+    return 0;
+}
