@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #include <memory>
+#include <ctype.h>
 
 using namespace std;
 
@@ -23,6 +24,8 @@ int main()
         case 3:
             std::cout << p.use_count() << std::endl;
             break;
+        case 4:
+            p2.lost();
         }
     }
     return 0;
