@@ -17,6 +17,8 @@ int main()
         {
         case 1:
             *p += 1;
+            break;
+        case 2:
             std::cout << *p << std::endl;
         }
     }
