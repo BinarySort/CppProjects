@@ -13,6 +13,7 @@ int main() {
         getline(cin, UsernameInput);
         UsernameInput == *username ? std::cout << "Correct Username!" << std::endl : std::cout << "Wrong Username!" << std::endl;
         std::cout << "Enter Your Password";
+        std::cin >> UserPasswordInput;
     }
     return 0;
 }
