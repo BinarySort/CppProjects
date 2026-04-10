@@ -14,6 +14,7 @@ int main() {
         UsernameInput == *username ? std::cout << "Correct Username!" << std::endl : std::cout << "Wrong Username!" << std::endl;
         std::cout << "Enter Your Password";
         std::cin >> UserPasswordInput;
+        UserPasswordInput == *password ? std::cout << "Correct Password!" << std::endl : std::cout << "Incorrect Password!" << std::endl;
     }
     return 0;
 }
