@@ -31,10 +31,14 @@ int main() {
                 {
                     std::cout << "This account doesn't exist!" << std::endl;
                 }
+                break;
             case 2: 
                 std::cout << "Change Password" << std::endl;
                 std::cout << "Enter New Password: ";
                 std::cin >> ChangePassword;
+                *password = ChangePassword;
+                std::cout << "Your New Password is: " << *password << std::endl;
+                break;
         }
         
     }
