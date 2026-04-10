@@ -63,6 +63,7 @@ int main() {
                 else {
                     std::cout << "Expired." << std::endl;
                 }
+                break;
         }
         
     }
