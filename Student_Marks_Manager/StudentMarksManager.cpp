@@ -9,7 +9,7 @@ int main()
 	int MarksPushInt;
 	for (int i = 1; i < LoopTime + 1; i++)
 	{
-		std::cout << "Enter " << i << "st" << "Mark: ";
+		std::cout << "Enter Mark " << i << ": ";
 		std::cin >> MarksPushInt;
 		Marks.push_back(MarksPushInt);
 	}
