@@ -12,10 +12,7 @@ int main()
 		std::cout << "Enter Mark " << i << ": ";
 		std::cin >> MarksPushInt;
 		Marks.push_back(MarksPushInt);
-	}
-	for (int Mark : Marks) {
-		std::cout << Mark << std::endl;
-	}
+	} 
 	return 0;
 }
 
